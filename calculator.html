@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="calculator.js"></script>
+    
+</head>
+<h1> Welcome To My Basic Calculator!</h1>
+<body>
+    <table class="calculator" >
+      <tr>
+      <td colspan="3"> <input class="show_value-box" type="text" id="result" disabled /> </td>
+   
+      <!-- This function clears all the values that are on the screen. -->
+       <td> <input type="button" value="C" onclick="clear_answer()" id="btn" /> </td>
+        </tr>
+        <tr>
+        <!-- This function show_values the value of the button you choose to click on. -->
+        <td> <input type="button" value="1" onclick="show_value('1')" /> </td>
+        <td> <input type="button" value="2" onclick="show_value('2')" /> </td>
+        <td> <input type="button" value="3" onclick="show_value('3')" /> </td>
+        <td> <input type="button" value="/" onclick="show_value('/')" /> </td>
+    </tr>
+        <tr>
+        <td> <input type="button" value="4" onclick="show_value('4')" /> </td>
+        <td> <input type="button" value="5" onclick="show_value('5')" /> </td>
+        <td> <input type="button" value="6" onclick="show_value('6')" /> </td>
+        <td> <input type="button" value="-" onclick="show_value('-')" /> </td>
+        </tr>
+        <tr>
+        <td> <input type="button" value="7" onclick="show_value('7')" /> </td>
+        <td> <input type="button" value="8" onclick="show_value('8')" /> </td>
+        <td> <input type="button" value="9" onclick="show_value('9')" /> </td>
+        <td> <input type="button" value="+" onclick="show_value('+')" /> </td>
+        </tr>
+        <tr>
+        <td> <input type="button" value="." onclick="show_value('.')" /> </td>
+        <td> <input type="button" value="0" onclick="show_value('0')" /> </td>
+    
+        <!-- This function evaluates the mathematical expression. -->
+        <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+        <td> <input type="button" value="*" onclick="show_value('*')" /> </td>
+    </tr>
+        </table>
+
+    
+        </body>
+    
+        </html>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+/*This is my heading/title/border style*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 3px solid #d00f90;
+    color:#ef9814;
+}
+
+
+
+/*this is the style settings for my calculator*/
+.calculator {
+padding: 10px;
+border-radius: 1em;
+height: 380px;
+width: 400px;
+margin: auto;
+background-color: #191b28;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/*this is the display style for my calculator*/
+.display-box {
+font-family: 'Times New roman' , sans-serif;
+background-color: #dcdbe1;
+border: solid black 0.5px;
+color: black;
+border-radius: 5px;
+width: 100%;
+height: 65%;
+}
+
+/*this is the button bg color for clear and equals*/
+#btn {
+background-color: #ef9814;
+}
+
+/*this is the button bg color for the other buttons. And the white is for the number/symbol color on top of the button bg color.
+the solid black is the color of the bg of the buttons.*/
+input[type=button] {
+font-family: 'Times New Roman', sans-serif;
+background-color: #d00f90;
+color: white;
+border: solid black 0.5px;
+width: 100%;
+border-radius: 5px;
+height: 70%;
+outline: none;
+}
+
+input:active[type=button] {
+background: #d1d0d0;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+-moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+box-shadow: inset 0px 0px 5px #c1c1c1;
+}
